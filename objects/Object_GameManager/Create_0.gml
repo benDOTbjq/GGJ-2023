@@ -37,6 +37,13 @@ part_type_size(particalExaust, 0.1, 1, -1, 0.5);
 part_type_life(particalExaust, 20, 20);
 
 
+acBezier = animcurve_get_channel(bezier, "0-1");
+sheetToggle = false;
+sheetPage = 0;
+sheetXHidden = RoomWidth;
+sheetX = 0;
+curveIndexer = 0;
+sheetSize = 500;
 
 
 room_goto_next();
