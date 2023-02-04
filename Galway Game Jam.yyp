@@ -44,6 +44,7 @@
     {"id":{"name":"room_Game","path":"rooms/room_Game/room_Game.yy",},"order":0,},
     {"id":{"name":"Sprite_test","path":"sprites/Sprite_test/Sprite_test.yy",},"order":0,},
     {"id":{"name":"AnimatedBGTile","path":"sprites/AnimatedBGTile/AnimatedBGTile.yy",},"order":0,},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":0,},
     {"id":{"name":"Sprite_Player","path":"sprites/Sprite_Player/Sprite_Player.yy",},"order":0,},
     {"id":{"name":"Public_Functions","path":"scripts/Public_Functions/Public_Functions.yy",},"order":0,},
   ],

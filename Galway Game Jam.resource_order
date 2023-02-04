@@ -9,6 +9,7 @@
     {"name":"Sprite_MaporWalls","order":3,"path":"sprites/Sprite_MaporWalls/Sprite_MaporWalls.yy",},
     {"name":"room_Game","order":1,"path":"rooms/room_Game/room_Game.yy",},
     {"name":"AnimatedBGTile","order":4,"path":"sprites/AnimatedBGTile/AnimatedBGTile.yy",},
+    {"name":"Sprite6","order":5,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"Sprite_Player","order":1,"path":"sprites/Sprite_Player/Sprite_Player.yy",},
   ],
 }
