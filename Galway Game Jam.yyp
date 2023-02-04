@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"room_Init","path":"rooms/room_Init/room_Init.yy",},"order":0,},
+    {"id":{"name":"Sprite_Background","path":"sprites/Sprite_Background/Sprite_Background.yy",},"order":0,},
     {"id":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"order":0,},
     {"id":{"name":"Object_GameManager","path":"objects/Object_GameManager/Object_GameManager.yy",},"order":0,},
     {"id":{"name":"Object_test","path":"objects/Object_test/Object_test.yy",},"order":0,},

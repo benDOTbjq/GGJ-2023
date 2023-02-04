@@ -1,2 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+var mouseWheelDirection = mouse_wheel_up() - mouse_wheel_down();
+
+if(mouseWheelDirection != 0 ) {
+	incrementCannalWidth(mouseWheelDirection);
+	
+}

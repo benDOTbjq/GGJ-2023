@@ -1,5 +1,2 @@
-draw_rectangle( RoomWidthHalf - RoomWidthQuart, 
-				0,
-				RoomWidthHalf + RoomWidthQuart,
-				RoomHeight,
-				false);
+draw_rectangle( 0, 0, borderLeft, RoomHeight, false);
+draw_rectangle(borderRight, 0, RoomWidth, RoomHeight, false);

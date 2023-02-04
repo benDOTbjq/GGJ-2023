@@ -4,6 +4,7 @@
     {"name":"Singletons","order":2,"path":"folders/Objects/Singletons.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Sprite_Background","order":2,"path":"sprites/Sprite_Background/Sprite_Background.yy",},
     {"name":"room_Game","order":1,"path":"rooms/room_Game/room_Game.yy",},
     {"name":"Sprite_Player","order":1,"path":"sprites/Sprite_Player/Sprite_Player.yy",},
   ],
