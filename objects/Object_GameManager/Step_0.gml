@@ -7,5 +7,5 @@ if(mouseWheelDirection != 0 ) {
 if(keyboard_check_pressed(vk_space)) {
 	triggerSplitEvent();
 }
-
+show_debug_message("spi:{0} mx{1}", splitPercentIndex, layer_get_x(borderMiddleLayer));
 step();

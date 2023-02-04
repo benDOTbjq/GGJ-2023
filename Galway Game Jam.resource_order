@@ -11,6 +11,7 @@
     {"name":"token_cars","order":4,"path":"sprites/token_cars/token_cars.yy",},
     {"name":"token_mice","order":2,"path":"sprites/token_mice/token_mice.yy",},
     {"name":"Sprite_Background","order":2,"path":"sprites/Sprite_Background/Sprite_Background.yy",},
+    {"name":"bezierDelayed","order":1,"path":"animcurves/bezierDelayed/bezierDelayed.yy",},
     {"name":"Sprite_BorderStart","order":9,"path":"sprites/Sprite_BorderStart/Sprite_BorderStart.yy",},
     {"name":"Object_MusicButton","order":3,"path":"objects/Object_MusicButton/Object_MusicButton.yy",},
     {"name":"token_dogs","order":1,"path":"sprites/token_dogs/token_dogs.yy",},

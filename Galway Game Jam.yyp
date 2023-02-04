@@ -43,6 +43,7 @@
     {"id":{"name":"token_mice","path":"sprites/token_mice/token_mice.yy",},"order":0,},
     {"id":{"name":"room_Init","path":"rooms/room_Init/room_Init.yy",},"order":0,},
     {"id":{"name":"Sprite_Background","path":"sprites/Sprite_Background/Sprite_Background.yy",},"order":0,},
+    {"id":{"name":"bezierDelayed","path":"animcurves/bezierDelayed/bezierDelayed.yy",},"order":0,},
     {"id":{"name":"Sprite_BorderStart","path":"sprites/Sprite_BorderStart/Sprite_BorderStart.yy",},"order":0,},
     {"id":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"order":0,},
     {"id":{"name":"Object_MusicButton","path":"objects/Object_MusicButton/Object_MusicButton.yy",},"order":0,},

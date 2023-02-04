@@ -43,7 +43,8 @@ step = sleep;
 
 gradient = 0;
 triggerSplitEvent = function() {
-	step = splitStep;
+	if currentPath == PATH_CHOICE.NONE
+		step = splitStep;
 }
 splitStep = function() {
 	if(gradient >= 0.2) {
@@ -53,11 +54,42 @@ splitStep = function() {
 		gradient += 0.001*(Object_Player.backgroundSpeed/20);
 	}
 }
+enum PATH_CHOICE {
+	NONE,
+	LEFT,
+	RIGHT
+}
+
+currentPath = PATH_CHOICE.NONE;
+splitPercentIndex = 0
+acBezier = animcurve_get_channel(bezier, "0-1");
 splitStepLeft = function() {
-	
+	gradient -= 0.002*(Object_Player.backgroundSpeed/20);
+	var middleX = layer_get_x(borderMiddleLayer);
+	var rightX = borderRight-16;
+	if(splitPercentIndex >= 1) {
+		currentPath = PATH_CHOICE.NONE;
+		layer_x(borderMiddleLayer, -999);
+		step = sleep;
+		splitPercentIndex = 0;
+	}else {
+		layer_x(borderMiddleLayer, ((middleX*(animcurve_channel_evaluate(acBezier, 1-splitPercentIndex)))+(rightX*animcurve_channel_evaluate(acBezier, splitPercentIndex))) );
+		splitPercentIndex += 0.005*(Object_Player.backgroundSpeed/20);
+	}
 }
 splitStepRight = function() {
-	
+	gradient -= 0.002*(Object_Player.backgroundSpeed/20);
+	var middleX = layer_get_x(borderMiddleLayer);
+	var leftX = borderLeft-16;
+	if(splitPercentIndex >= 1) {
+		currentPath = PATH_CHOICE.NONE;
+		layer_x(borderMiddleLayer, -999);
+		step = sleep;
+		splitPercentIndex = 0;
+	}else {
+		layer_x(borderMiddleLayer, (middleX*(animcurve_channel_evaluate(acBezier, 1-splitPercentIndex)))+(leftX*animcurve_channel_evaluate(acBezier, splitPercentIndex)));
+		splitPercentIndex += 0.005*(Object_Player.backgroundSpeed/20);
+	}
 }
 
 

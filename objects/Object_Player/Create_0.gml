@@ -28,7 +28,12 @@ step = function() {
 		xMomentum += horizontalInput*(1.5);
 	}
 	x += xMomentum
-	x = clamp(x, Game.borderLeft, Game.borderRight);
+	var x1 = Game.currentPath
+	var x2 = Game.borderRight;
+	
+	var minClamp = Game.currentPath == PATH_CHOICE.RIGHT ? layer_get_x(Game.borderMiddleLayer) : Game.borderLeft;
+	var maxClamp = Game.currentPath == PATH_CHOICE.LEFT ? layer_get_x(Game.borderMiddleLayer) : Game.borderRight;
+	x = clamp(x, minClamp, maxClamp);
 	xMomentum -= xMomentum * 0.1
 	
 	
