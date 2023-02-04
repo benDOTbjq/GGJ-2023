@@ -22,10 +22,7 @@
     "name": "Rooms",
     "path": "folders/Rooms.yy",
   },
-  "parentRoom": {
-    "name": "room_Template",
-    "path": "rooms/room_Template/room_Template.yy",
-  },
+  "parentRoom": null,
   "physicsSettings": {
     "inheritPhysicsSettings": false,
     "PhysicsWorld": false,
