@@ -10,6 +10,7 @@ playAreaLimitWidth = 64;
 
 isSoundPlaying = false;
 
+bombAvailable = false
 
 backgroundId = layer_get_id("Background");
 
@@ -38,10 +39,21 @@ step = function() {
 	
 	
 	yPhysical = y - yCamera;
+	if(keyboard_check_pressed(ord("B")) && bombAvailable) {
+			bombAvailable = false;
+			yPhysical = yPhysical*1.5;
+			var influence = (abs(playAreaTop-yPhysical)/playAreaTop) * (1 * 5)
+			backgroundSpeed = (1-(influence*1/4.6))*20;
+			layer_vspeed(backgroundId, backgroundSpeed);
+		}
 	if(verticalInput != 0) {
-		//				upperBound
-		var influence = (abs(playAreaTop-yPhysical)/playAreaTop) * (verticalInput * 5)
 		
+		var influence = (abs(playAreaTop-yPhysical)/playAreaTop) * (verticalInput * 5)
+		if (abs(influence) < 0.01) {
+			bombAvailable = true
+		}else {
+			bombAvailable = false
+		}
 		
 		yPhysical += influence  
 		yPhysical = min(yPhysical, RoomWidth)
@@ -57,6 +69,7 @@ step = function() {
 	yCamera += ((yCameraTarget - y) / yCameraTarget)*10;
 	
 	y = yPhysical + yCamera;
+	
 	
 	
 	//rotation
