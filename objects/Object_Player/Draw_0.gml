@@ -8,8 +8,3 @@ if(verticalInput != 0) {
 }
 
 draw_sprite_ext(sprite_index, -1, x, y, 0.5, 0.5, image_angle, c_white, 1);
-layer_x(Game.borderRightLayer, Game.borderRight);
-layer_x(Game.borderLeftLayer, Game.borderLeft-32);
-layer_y(Game.borderRightLayer, layer_get_y(Game.borderRightLayer) + (backgroundSpeed/2) );
-layer_y(Game.borderLeftLayer, layer_get_y(Game.borderLeftLayer) + (backgroundSpeed/2) );
-

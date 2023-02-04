@@ -4,7 +4,7 @@ layerBackgroundId = layer_get_id("Instances_Background");
 
 borderRightLayer = undefined // defined in room_Game creation code
 borderLeftLayer = undefined
-
+borderMiddleLayer = undefined
 
 
 
@@ -36,14 +36,29 @@ part_type_direction(particalExaust, 0, 360, 0, 5);
 part_type_size(particalExaust, 0.1, 1, -1, 0.5);
 part_type_life(particalExaust, 20, 20);
 
+sleep = function() {};
 
-acBezier = animcurve_get_channel(bezier, "0-1");
-sheetToggle = false;
-sheetPage = 0;
-sheetXHidden = RoomWidth;
-sheetX = 0;
-curveIndexer = 0;
-sheetSize = 500;
+step = sleep;
+
+
+gradient = 0;
+triggerSplitEvent = function() {
+	step = splitStep;
+}
+splitStep = function() {
+	if(gradient >= 0.2) {
+		instance_create_layer(RoomWidthHalf, 0, "Instances_Focus", Object_BorderStart);
+		step = sleep;
+	}else {
+		gradient += 0.001*(Object_Player.backgroundSpeed/20);
+	}
+}
+splitStepLeft = function() {
+	
+}
+splitStepRight = function() {
+	
+}
 
 
 room_goto_next();

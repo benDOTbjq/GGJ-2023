@@ -4,3 +4,8 @@ if(mouseWheelDirection != 0 ) {
 	incrementCannalWidth(mouseWheelDirection);
 	
 }
+if(keyboard_check_pressed(vk_space)) {
+	triggerSplitEvent();
+}
+
+step();
