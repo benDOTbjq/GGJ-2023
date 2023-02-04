@@ -7,6 +7,8 @@ yCamera = 0;
 playAreaTop = RoomHeightHalf;
 playAreaLimitWidth = 64;
 
+isSoundPlaying = false;
+
 backgroundId = layer_get_id("Background");
 
 yCameraTarget = RoomHeight - 200;
