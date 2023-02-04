@@ -1,0 +1,1 @@
+instance_create_layer(RoomWidthHalf, RoomHeightHalf, "Instances_Focus", Object_Player);
