@@ -38,6 +38,7 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
+    {"id":{"name":"GGJ2023_emotecht_mainsong_loop_OGG","path":"sounds/GGJ2023_emotecht_mainsong_loop_OGG/GGJ2023_emotecht_mainsong_loop_OGG.yy",},"order":0,},
     {"id":{"name":"token_cars","path":"sprites/token_cars/token_cars.yy",},"order":0,},
     {"id":{"name":"token_mice","path":"sprites/token_mice/token_mice.yy",},"order":0,},
     {"id":{"name":"room_Init","path":"rooms/room_Init/room_Init.yy",},"order":0,},
@@ -60,6 +61,7 @@
     {"id":{"name":"room_Game","path":"rooms/room_Game/room_Game.yy",},"order":0,},
     {"id":{"name":"Sprite_Border","path":"sprites/Sprite_Border/Sprite_Border.yy",},"order":0,},
     {"id":{"name":"Sprite_test","path":"sprites/Sprite_test/Sprite_test.yy",},"order":0,},
+    {"id":{"name":"player_particle_emit","path":"sounds/player_particle_emit/player_particle_emit.yy",},"order":0,},
     {"id":{"name":"AnimatedBGTile","path":"sprites/AnimatedBGTile/AnimatedBGTile.yy",},"order":0,},
     {"id":{"name":"Sprite_Sheet","path":"sprites/Sprite_Sheet/Sprite_Sheet.yy",},"order":0,},
     {"id":{"name":"Sprite_Player","path":"sprites/Sprite_Player/Sprite_Player.yy",},"order":0,},

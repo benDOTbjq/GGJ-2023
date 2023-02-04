@@ -22,6 +22,7 @@
     {"name":"Sprite_MaporWalls","order":3,"path":"sprites/Sprite_MaporWalls/Sprite_MaporWalls.yy",},
     {"name":"room_Game","order":1,"path":"rooms/room_Game/room_Game.yy",},
     {"name":"Sprite_Border","order":5,"path":"sprites/Sprite_Border/Sprite_Border.yy",},
+    {"name":"player_particle_emit","order":1,"path":"sounds/player_particle_emit/player_particle_emit.yy",},
     {"name":"AnimatedBGTile","order":4,"path":"sprites/AnimatedBGTile/AnimatedBGTile.yy",},
     {"name":"Sprite_Sheet","order":5,"path":"sprites/Sprite_Sheet/Sprite_Sheet.yy",},
     {"name":"Sprite_Player","order":1,"path":"sprites/Sprite_Player/Sprite_Player.yy",},
