@@ -65,6 +65,7 @@
     {"id":{"name":"Room_TestingTiles","path":"rooms/Room_TestingTiles/Room_TestingTiles.yy",},"order":0,},
     {"id":{"name":"bezier","path":"animcurves/bezier/bezier.yy",},"order":0,},
     {"id":{"name":"token_crowdedplaces","path":"sprites/token_crowdedplaces/token_crowdedplaces.yy",},"order":0,},
+    {"id":{"name":"Object_mainMenu","path":"objects/Object_mainMenu/Object_mainMenu.yy",},"order":0,},
     {"id":{"name":"token_politics","path":"sprites/token_politics/token_politics.yy",},"order":0,},
     {"id":{"name":"Sprite_Pixel","path":"sprites/Sprite_Pixel/Sprite_Pixel.yy",},"order":0,},
     {"id":{"name":"max_speed","path":"sounds/max_speed/max_speed.yy",},"order":0,},

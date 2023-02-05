@@ -3,5 +3,6 @@
   "ResourceOrderSettings": [
     {"name":"BG","order":1,"path":"sprites/BG/BG.yy",},
     {"name":"background","order":2,"path":"sprites/background/background.yy",},
+    {"name":"Object_mainMenu","order":1,"path":"objects/Object_mainMenu/Object_mainMenu.yy",},
   ],
 }

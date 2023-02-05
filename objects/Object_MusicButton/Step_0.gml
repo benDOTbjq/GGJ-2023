@@ -5,7 +5,7 @@ if(mouse_check_button_pressed(mb_left) && collision_point(mouse_x,mouse_y,Object
 {
 	if(!isSoundPlaying)
 	{
-		audio_play_sound(GGJ2023_emotecht_mainsong_loop_OGG,10,true);			
+					
 		isSoundPlaying = true;	
 	}
 
