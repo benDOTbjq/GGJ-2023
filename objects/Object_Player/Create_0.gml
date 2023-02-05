@@ -9,6 +9,7 @@ playAreaLimitWidth = 64;
 
 
 isSoundPlaying = false;
+isMaxSpeedPlaying = false;
 
 bombAvailable = false
 
@@ -55,8 +56,10 @@ step = function() {
 		var influence = (abs(playAreaTop-yPhysical)/playAreaTop) * (verticalInput * 5)
 		if (abs(influence) < 0.01) {
 			bombAvailable = true
+			
 		}else {
 			bombAvailable = false
+			isMaxSpeedPlaying = false;
 		}
 		
 		yPhysical += influence  

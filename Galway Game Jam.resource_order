@@ -27,6 +27,7 @@
     {"name":"token_crowdedplaces","order":1,"path":"sprites/token_crowdedplaces/token_crowdedplaces.yy",},
     {"name":"token_politics","order":2,"path":"sprites/token_politics/token_politics.yy",},
     {"name":"Sprite_Pixel","order":8,"path":"sprites/Sprite_Pixel/Sprite_Pixel.yy",},
+    {"name":"max_speed","order":5,"path":"sounds/max_speed/max_speed.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"token_swimming","order":3,"path":"sprites/token_swimming/token_swimming.yy",},
     {"name":"token_mother","order":3,"path":"sprites/token_mother/token_mother.yy",},
