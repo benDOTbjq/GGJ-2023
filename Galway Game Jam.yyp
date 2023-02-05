@@ -39,7 +39,9 @@
   },
   "resources": [
     {"id":{"name":"GGJ2023_emotecht_mainsong_loop_OGG","path":"sounds/GGJ2023_emotecht_mainsong_loop_OGG/GGJ2023_emotecht_mainsong_loop_OGG.yy",},"order":0,},
+    {"id":{"name":"ExhaustSprite","path":"sprites/ExhaustSprite/ExhaustSprite.yy",},"order":0,},
     {"id":{"name":"token_cars","path":"sprites/token_cars/token_cars.yy",},"order":0,},
+    {"id":{"name":"TargetSprite","path":"sprites/TargetSprite/TargetSprite.yy",},"order":0,},
     {"id":{"name":"token_mice","path":"sprites/token_mice/token_mice.yy",},"order":0,},
     {"id":{"name":"Object_EnemyManager","path":"objects/Object_EnemyManager/Object_EnemyManager.yy",},"order":0,},
     {"id":{"name":"room_Init","path":"rooms/room_Init/room_Init.yy",},"order":0,},
@@ -49,6 +51,8 @@
     {"id":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"order":0,},
     {"id":{"name":"Object_MusicButton","path":"objects/Object_MusicButton/Object_MusicButton.yy",},"order":0,},
     {"id":{"name":"Object_GameManager","path":"objects/Object_GameManager/Object_GameManager.yy",},"order":0,},
+    {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},"order":0,},
+    {"id":{"name":"EnemySprite","path":"sprites/EnemySprite/EnemySprite.yy",},"order":0,},
     {"id":{"name":"Object_test","path":"objects/Object_test/Object_test.yy",},"order":0,},
     {"id":{"name":"token_dogs","path":"sprites/token_dogs/token_dogs.yy",},"order":0,},
     {"id":{"name":"Room_TestingTiles","path":"rooms/Room_TestingTiles/Room_TestingTiles.yy",},"order":0,},
