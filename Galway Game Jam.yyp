@@ -39,6 +39,7 @@
   },
   "resources": [
     {"id":{"name":"GGJ2023_emotecht_mainsong_loop_OGG","path":"sounds/GGJ2023_emotecht_mainsong_loop_OGG/GGJ2023_emotecht_mainsong_loop_OGG.yy",},"order":0,},
+    {"id":{"name":"Sprite_BombHitbox","path":"sprites/Sprite_BombHitbox/Sprite_BombHitbox.yy",},"order":0,},
     {"id":{"name":"ExhaustSprite","path":"sprites/ExhaustSprite/ExhaustSprite.yy",},"order":0,},
     {"id":{"name":"token_cars","path":"sprites/token_cars/token_cars.yy",},"order":0,},
     {"id":{"name":"TargetSprite","path":"sprites/TargetSprite/TargetSprite.yy",},"order":0,},
@@ -61,6 +62,7 @@
     {"id":{"name":"Room_TestingTiles","path":"rooms/Room_TestingTiles/Room_TestingTiles.yy",},"order":0,},
     {"id":{"name":"bezier","path":"animcurves/bezier/bezier.yy",},"order":0,},
     {"id":{"name":"token_crowdedplaces","path":"sprites/token_crowdedplaces/token_crowdedplaces.yy",},"order":0,},
+    {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},"order":0,},
     {"id":{"name":"token_politics","path":"sprites/token_politics/token_politics.yy",},"order":0,},
     {"id":{"name":"Sprite_Pixel","path":"sprites/Sprite_Pixel/Sprite_Pixel.yy",},"order":0,},
     {"id":{"name":"max_speed","path":"sounds/max_speed/max_speed.yy",},"order":0,},

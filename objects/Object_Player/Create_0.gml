@@ -7,6 +7,9 @@ yCamera = 0;
 playAreaTop = RoomHeightHalf;
 playAreaLimitWidth = 64;
 
+bombHitboxXRange = 150;
+bombHitboxYRange = 100;
+enemyHitList = ds_list_create();
 
 isSoundPlaying = false;
 isMaxSpeedPlaying = false;
@@ -43,8 +46,21 @@ step = function() {
 	
 	yPhysical = y - yCamera;
 	if(keyboard_check_pressed(ord("B")) && bombAvailable) {
+			// Play sfx
 			var blastIndex = irandom_range(0,2);
-			audio_play_sound(blastSounds[blastIndex], 10, false);
+			audio_play_sound(blastSounds[blastIndex], 10, false, 0.8);
+			
+			part_emitter_burst(Game.particalSystem, Game.particalEmitter, Game.particalBomb, 30);
+			
+			var totalEnemiesHit = collision_rectangle_list(x-bombHitboxXRange,y,x+bombHitboxXRange,y-bombHitboxYRange,Object_Enemy,true,false, enemyHitList, false);
+			
+			for(var i = 0; i<totalEnemiesHit; i++)
+			{
+				enemyHitList[| i].kill();	
+			}
+			ds_list_clear(enemyHitList);
+			
+			
 			bombAvailable = false;
 			yPhysical = yPhysical*1.5;
 			var influence = (abs(playAreaTop-yPhysical)/playAreaTop) * (1 * 5)

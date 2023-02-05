@@ -8,6 +8,7 @@
     {"name":"bad","order":2,"path":"folders/Sprites/tokens/bad.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Sprite_BombHitbox","order":18,"path":"sprites/Sprite_BombHitbox/Sprite_BombHitbox.yy",},
     {"name":"ExhaustSprite","order":11,"path":"sprites/ExhaustSprite/ExhaustSprite.yy",},
     {"name":"token_cars","order":4,"path":"sprites/token_cars/token_cars.yy",},
     {"name":"TargetSprite","order":10,"path":"sprites/TargetSprite/TargetSprite.yy",},
@@ -25,6 +26,7 @@
     {"name":"token_dogs","order":1,"path":"sprites/token_dogs/token_dogs.yy",},
     {"name":"Room_TestingTiles","order":2,"path":"rooms/Room_TestingTiles/Room_TestingTiles.yy",},
     {"name":"token_crowdedplaces","order":1,"path":"sprites/token_crowdedplaces/token_crowdedplaces.yy",},
+    {"name":"Sprite32","order":3,"path":"sprites/Sprite32/Sprite32.yy",},
     {"name":"token_politics","order":2,"path":"sprites/token_politics/token_politics.yy",},
     {"name":"Sprite_Pixel","order":8,"path":"sprites/Sprite_Pixel/Sprite_Pixel.yy",},
     {"name":"max_speed","order":5,"path":"sounds/max_speed/max_speed.yy",},
