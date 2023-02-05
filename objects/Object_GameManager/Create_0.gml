@@ -96,3 +96,6 @@ splitStepRight = function() {
 
 room_goto_next();
 
+gameOver = function() {
+	
+}

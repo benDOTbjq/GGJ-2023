@@ -72,6 +72,7 @@
     {"id":{"name":"Sprite_MaporWalls","path":"sprites/Sprite_MaporWalls/Sprite_MaporWalls.yy",},"order":0,},
     {"id":{"name":"room_Game","path":"rooms/room_Game/room_Game.yy",},"order":0,},
     {"id":{"name":"Object_Enemy","path":"objects/Object_Enemy/Object_Enemy.yy",},"order":0,},
+    {"id":{"name":"Object_EnemyHard","path":"objects/Object_EnemyHard/Object_EnemyHard.yy",},"order":0,},
     {"id":{"name":"Sprite_MusicButton","path":"sprites/Sprite_MusicButton/Sprite_MusicButton.yy",},"order":0,},
     {"id":{"name":"Sprite_Border","path":"sprites/Sprite_Border/Sprite_Border.yy",},"order":0,},
     {"id":{"name":"Sprite_test","path":"sprites/Sprite_test/Sprite_test.yy",},"order":0,},
