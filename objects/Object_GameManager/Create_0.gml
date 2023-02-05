@@ -21,7 +21,7 @@ borderRight = RoomWidthHalf + CannalWidth;
 targetHappiness = (round(random_range(0,1) * 10)) / 10;
 if(targetHappiness==0.5)
 	targetHappiness = (round(random_range(0.6,1) * 10)) / 10;
-
+happinessx10= targetHappiness * 10;
 
 
 

@@ -20,4 +20,6 @@ layer_y(borderRightLayer, layer_get_y(borderRightLayer) + (Object_Player.backgro
 layer_y(borderMiddleLayer, layer_get_y(borderMiddleLayer) + (Object_Player.backgroundSpeed) );
 layer_y(borderLeftLayer, layer_get_y(borderLeftLayer) + (Object_Player.backgroundSpeed/2) );
 
+draw_text(0,0,"Target Happiness: ");
+draw_text(20,40, happinessx10);
 show_debug_message("Target Happiness: {0}", targetHappiness);
