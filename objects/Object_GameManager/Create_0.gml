@@ -28,6 +28,7 @@ alarm_set(10, 20);
 particalSystem = part_system_create();
 particalEmitter = part_emitter_create(particalSystem);
 part_system_layer(particalSystem, layerBackgroundId);
+
 particalExaust = part_type_create()
 part_type_alpha2(particalExaust, 1, 0);
 //part_type_color_mix(particalExaust, c_orange, c_yellow);
@@ -37,6 +38,15 @@ part_type_speed(particalExaust, 2, 20, 1, 5);
 part_type_direction(particalExaust, 0, 360, 0, 5);
 part_type_size(particalExaust, 0.1, 1, -1, 0.5);
 part_type_life(particalExaust, 20, 20);
+
+particalBomb = part_type_create()
+part_type_alpha2(particalBomb, 1, 0);
+part_type_color_mix(particalBomb, c_orange, c_red);
+part_type_shape(particalBomb, pt_shape_explosion);
+part_type_speed(particalBomb, 2, 20, 1, 5);
+part_type_direction(particalBomb, 45, 135, 0, 5);
+part_type_size(particalBomb, 0.1, 1, -1, 0.5);
+part_type_life(particalBomb, 20, 20);
 
 sleep = function() {};
 
