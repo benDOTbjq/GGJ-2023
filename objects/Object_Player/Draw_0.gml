@@ -22,7 +22,17 @@ else
 	
 }
 if(bombAvailable)
+{
+	if(!isMaxSpeedPlaying)
+	{
+		audio_play_sound(max_speed,10,false,1.5);
+		isMaxSpeedPlaying = true;
+	}	
+	
 	draw_sprite_ext(sprite_index, -1, x, y, 0.8, 0.8, image_angle, c_blue, 1);
+	
+}	
+	
 
 draw_sprite_ext(sprite_index, -1, x, y, 0.5, 0.5, image_angle, c_white, 1);
 layer_x(Game.borderRightLayer, Game.borderRight-16);
