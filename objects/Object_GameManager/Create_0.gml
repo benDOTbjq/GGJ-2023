@@ -6,8 +6,8 @@ borderRightLayer = undefined // defined in room_Game creation code
 borderLeftLayer = undefined
 borderMiddleLayer = undefined
 
-
-
+surfaceNerve = noone;
+surfacenerveY = 0;
 RoomHeightQuart = RoomHeightHalf/2;
 RoomWidthQuart = RoomWidthHalf/2;
 

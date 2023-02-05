@@ -2,7 +2,7 @@
 instance_create_layer(RoomWidthHalf, RoomHeightHalf, "Instances_Focus", Object_Player);
 instance_create_layer(0, 0, "Instances_Foreground", Object_HUD);
 instance_create_layer(0, 0, "Instances_Background", Object_EnemyManager);
-instance_create_layer(0, 0, "Instances_Background", Object_TokenManager);
+instance_create_layer(0, 0, "Instances_Foreground", Object_TokenManager);
 
 
 Game.borderRightLayer = layer_get_id("Background_BorderRight");

@@ -49,7 +49,7 @@ step = function() {
 			yPhysical = yPhysical*1.5;
 			var influence = (abs(playAreaTop-yPhysical)/playAreaTop) * (1 * 5)
 			backgroundSpeed = (1-(influence*1/4.6))*20;
-			layer_vspeed(backgroundId, backgroundSpeed);
+			layer_vspeed(backgroundId, backgroundSpeed/10);
 		}
 	if(verticalInput != 0) {
 		
@@ -69,7 +69,8 @@ step = function() {
 		backgroundSpeed = (1-(influence*verticalInput/4.6))*20;
 		
 		yPhysical = clamp(yPhysical, RoomHeightHalf, RoomHeight);
-		layer_vspeed(backgroundId, backgroundSpeed);
+		
+		layer_vspeed(backgroundId, backgroundSpeed/10);
 	}
 	
 	//fix placement with camera
