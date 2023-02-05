@@ -11,7 +11,7 @@ borderMiddleLayer = undefined
 RoomHeightQuart = RoomHeightHalf/2;
 RoomWidthQuart = RoomWidthHalf/2;
 
-CannalWidth = 200;
+CannalWidth = 500;
 
 borderLeft = RoomWidthHalf - CannalWidth;
 borderRight = RoomWidthHalf + CannalWidth;
@@ -24,6 +24,7 @@ incrementCannalWidth = function(incrementSize) {
 	borderRight = RoomWidthHalf + CannalWidth;
 	Object_Player.x = clamp(Object_Player.x, borderLeft, borderRight);
 }
+alarm_set(10, 20);
 particalSystem = part_system_create();
 particalEmitter = part_emitter_create(particalSystem);
 part_system_layer(particalSystem, layerBackgroundId);
@@ -41,7 +42,7 @@ sleep = function() {};
 
 step = sleep;
 
-
+alarm_set(10, 20)
 gradient = 0;
 triggerSplitEvent = function() {
 	if currentPath == PATH_CHOICE.NONE
@@ -60,7 +61,7 @@ enum PATH_CHOICE {
 	LEFT,
 	RIGHT
 }
-
+happyness = 0.5;
 currentPath = PATH_CHOICE.NONE;
 splitPercentIndex = 0
 acBezier = animcurve_get_channel(bezier, "0-1");

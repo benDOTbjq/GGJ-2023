@@ -7,5 +7,7 @@ if(choiceLeft.happyness < 0) {
 }else {
 	choiceRight = bad[irandom(array_length(bad)-1)];
 }
-drawActive = true;
+tokenDropIncrement = 0.05;
+tokenDropPercent = 0.05;
+
 

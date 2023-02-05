@@ -1,13 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 alarm_set(0, 300);
-choiceLeft = noone;
-choiceRight = noone;
 
 draw = Game.sleep;
 step = Game.sleep;
 
 tokenDropPercent = 0;
+tokenDropIncrement = 0;
 acBezier = animcurve_get_channel(bezier, "0-1");
 
 drawActive = false
@@ -56,10 +55,22 @@ wife = {
 	happyness: -0.6
 }
 
+choiceLeft = cats;
+choiceRight = dogs;
 
 choices = [cars, cats, crowdedplaces, daughter, dogs,
 	mice, mother, politics, son, swimming, wife];
 good = [cars, daughter, dogs, politics, swimming];
 bad = [cats, crowdedplaces, mice, mother, son, wife];
 
-
+postSplit = function(path) {
+	tokenDropPercent = 0.95;
+	tokenDropIncrement = -0.05;
+	if path == PATH_CHOICE.LEFT {
+		Game.happyness *= choiceLeft.happyness;
+	}else {
+		Game.happyness *= choiceRight.happyness;
+	}
+	alarm_set(0, 60*5);
+	
+}

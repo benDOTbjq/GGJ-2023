@@ -7,6 +7,7 @@ if(y >= RoomHeight+20) {
 	layer_x(Game.borderMiddleLayer, RoomWidthHalf-16);
 	Game.step = (Object_Player.x <= RoomWidthHalf) ? Game.splitStepLeft : Game.splitStepRight;
 	Game.currentPath = (Object_Player.x <= RoomWidthHalf) ? PATH_CHOICE.LEFT : PATH_CHOICE.RIGHT;
+	Object_TokenManager.postSplit(Game.currentPath);
 	instance_destroy(id);
 	
 }

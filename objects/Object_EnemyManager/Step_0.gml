@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_message(alarm_get(0))
+show_debug_message(alarm_get(1))
