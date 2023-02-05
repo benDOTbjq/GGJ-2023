@@ -71,20 +71,11 @@ postSplit = function(path) {
 	tokenDropPercent = 0.95;
 	tokenDropIncrement = -0.05;
 	if path == PATH_CHOICE.LEFT {
-		//if(choiceLeft.happyness<0 && Game.happyness<=0)
-		//	Game.happyness = 0;
-		//else if (choiceLeft.happyness>0 && Game.happyness>=1)
-		//	Game.happyness = 1;
-		//else
 		Game.happyness += choiceLeft.happyness;
 	}else {
-		//if(ChoiceRight.happyness<0 && Game.happyness<=0)
-		//	Game.happyness = 0;
-		//else if (ChoiceRight.happyness>0 && Game.happyness>=1)
-		//	Game.happyness = 1;
-		//else
 		Game.happyness += choiceRight.happyness;
 	}
+	Game.happyness = clamp(Game.happyness, 0, 1);
 	alarm_set(0, 60*5);
 	
 }
