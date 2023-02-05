@@ -1,3 +1,4 @@
+randomize();
 layerForgroundId = layer_get_id("Instances_Foreground");
 layerFocusId = layer_get_id("Instances_Focus");
 layerBackgroundId = layer_get_id("Instances_Background");
@@ -15,6 +16,12 @@ CannalWidth = 500;
 
 borderLeft = RoomWidthHalf - CannalWidth;
 borderRight = RoomWidthHalf + CannalWidth;
+
+
+targetHappiness = (round(random_range(0,1) * 10)) / 10;
+if(targetHappiness==0.5)
+	targetHappiness = (round(random_range(0.6,1) * 10)) / 10;
+
 
 
 
