@@ -10,6 +10,7 @@
   "ResourceOrderSettings": [
     {"name":"token_cars","order":4,"path":"sprites/token_cars/token_cars.yy",},
     {"name":"token_mice","order":2,"path":"sprites/token_mice/token_mice.yy",},
+    {"name":"Object_EnemyManager","order":2,"path":"objects/Object_EnemyManager/Object_EnemyManager.yy",},
     {"name":"Sprite_Background","order":2,"path":"sprites/Sprite_Background/Sprite_Background.yy",},
     {"name":"bezierDelayed","order":1,"path":"animcurves/bezierDelayed/bezierDelayed.yy",},
     {"name":"Sprite_BorderStart","order":9,"path":"sprites/Sprite_BorderStart/Sprite_BorderStart.yy",},
@@ -28,6 +29,7 @@
     {"name":"Sprite21","order":2,"path":"sprites/Sprite21/Sprite21.yy",},
     {"name":"Sprite_MaporWalls","order":3,"path":"sprites/Sprite_MaporWalls/Sprite_MaporWalls.yy",},
     {"name":"room_Game","order":1,"path":"rooms/room_Game/room_Game.yy",},
+    {"name":"Object_Enemy","order":4,"path":"objects/Object_Enemy/Object_Enemy.yy",},
     {"name":"Sprite_MusicButton","order":8,"path":"sprites/Sprite_MusicButton/Sprite_MusicButton.yy",},
     {"name":"Sprite_Border","order":5,"path":"sprites/Sprite_Border/Sprite_Border.yy",},
     {"name":"player_particle_emit","order":1,"path":"sounds/player_particle_emit/player_particle_emit.yy",},
