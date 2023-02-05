@@ -17,6 +17,7 @@
     {"name":"bezierDelayed","order":1,"path":"animcurves/bezierDelayed/bezierDelayed.yy",},
     {"name":"Sprite_BorderStart","order":9,"path":"sprites/Sprite_BorderStart/Sprite_BorderStart.yy",},
     {"name":"Object_MusicButton","order":3,"path":"objects/Object_MusicButton/Object_MusicButton.yy",},
+    {"name":"Sprite28","order":14,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"PlayerSprite","order":13,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
     {"name":"EnemySprite","order":12,"path":"sprites/EnemySprite/EnemySprite.yy",},
     {"name":"token_dogs","order":1,"path":"sprites/token_dogs/token_dogs.yy",},

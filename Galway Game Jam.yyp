@@ -50,6 +50,7 @@
     {"id":{"name":"Sprite_BorderStart","path":"sprites/Sprite_BorderStart/Sprite_BorderStart.yy",},"order":0,},
     {"id":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"order":0,},
     {"id":{"name":"Object_MusicButton","path":"objects/Object_MusicButton/Object_MusicButton.yy",},"order":0,},
+    {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},"order":0,},
     {"id":{"name":"Object_GameManager","path":"objects/Object_GameManager/Object_GameManager.yy",},"order":0,},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},"order":0,},
     {"id":{"name":"EnemySprite","path":"sprites/EnemySprite/EnemySprite.yy",},"order":0,},
