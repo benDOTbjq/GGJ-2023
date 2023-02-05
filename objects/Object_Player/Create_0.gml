@@ -18,6 +18,8 @@ yCameraTarget = RoomHeight - 200;
 
 xMomentum = 0;
 
+blastSounds = [exhaust_blast_01, exhaust_blast_02, exhaust_blast_03];
+
 step = function() {
 	
 	
@@ -29,7 +31,7 @@ step = function() {
 		xMomentum += horizontalInput*(1.5);
 	}
 	x += xMomentum
-	var x1 = Game.currentPath
+	var x1 = Game.currentPath;
 	var x2 = Game.borderRight;
 	
 	var minClamp = Game.currentPath == PATH_CHOICE.RIGHT ? layer_get_x(Game.borderMiddleLayer) : Game.borderLeft;
@@ -40,6 +42,8 @@ step = function() {
 	
 	yPhysical = y - yCamera;
 	if(keyboard_check_pressed(ord("B")) && bombAvailable) {
+			var blastIndex = irandom_range(0,2);
+			audio_play_sound(blastSounds[blastIndex], 10, false);
 			bombAvailable = false;
 			yPhysical = yPhysical*1.5;
 			var influence = (abs(playAreaTop-yPhysical)/playAreaTop) * (1 * 5)
