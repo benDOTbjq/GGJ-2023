@@ -10,6 +10,7 @@
   "ResourceOrderSettings": [
     {"name":"Sprite_BombHitbox","order":18,"path":"sprites/Sprite_BombHitbox/Sprite_BombHitbox.yy",},
     {"name":"ExhaustSprite","order":11,"path":"sprites/ExhaustSprite/ExhaustSprite.yy",},
+    {"name":"Sprite32","order":18,"path":"sprites/Sprite32/Sprite32.yy",},
     {"name":"token_cars","order":4,"path":"sprites/token_cars/token_cars.yy",},
     {"name":"TargetSprite","order":10,"path":"sprites/TargetSprite/TargetSprite.yy",},
     {"name":"token_mice","order":2,"path":"sprites/token_mice/token_mice.yy",},
@@ -19,6 +20,7 @@
     {"name":"bezierDelayed","order":1,"path":"animcurves/bezierDelayed/bezierDelayed.yy",},
     {"name":"Sprite_BorderStart","order":9,"path":"sprites/Sprite_BorderStart/Sprite_BorderStart.yy",},
     {"name":"Object_MusicButton","order":3,"path":"objects/Object_MusicButton/Object_MusicButton.yy",},
+    {"name":"GlitchyEmote","order":19,"path":"sprites/GlitchyEmote/GlitchyEmote.yy",},
     {"name":"Sprite28","order":14,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"PlayerSprite","order":13,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
     {"name":"EnemySprite","order":12,"path":"sprites/EnemySprite/EnemySprite.yy",},
