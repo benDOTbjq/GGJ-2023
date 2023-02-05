@@ -4,5 +4,6 @@
     {"name":"BG","order":1,"path":"sprites/BG/BG.yy",},
     {"name":"background","order":2,"path":"sprites/background/background.yy",},
     {"name":"Object_mainMenu","order":1,"path":"objects/Object_mainMenu/Object_mainMenu.yy",},
+    {"name":"Room_GameOver","order":1,"path":"rooms/Room_GameOver/Room_GameOver.yy",},
   ],
 }

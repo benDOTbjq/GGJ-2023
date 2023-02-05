@@ -34,7 +34,7 @@ if(bombAvailable)
 }	
 	
 //draw_rectangle(x-bombHitboxXRange,y,x+bombHitboxXRange,y-bombHitboxYRange, false)
-draw_sprite_ext(sprite_index, -1, x, y, 0.5, 0.5, image_angle, c_white, 1);
+draw_sprite_ext(sprite_index, -1, x, y, 0.8, 0.8, image_angle, c_white, 1);
 layer_x(Game.borderRightLayer, Game.borderRight-16);
 layer_x(Game.borderLeftLayer, Game.borderLeft-16);
 layer_y(Game.borderRightLayer, layer_get_y(Game.borderRightLayer) + (backgroundSpeed/2) );

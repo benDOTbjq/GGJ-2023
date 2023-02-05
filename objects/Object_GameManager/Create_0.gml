@@ -105,8 +105,13 @@ splitStepRight = function() {
 }
 
 
-room_goto_next();
+
 
 gameOver = function() {
-	
+	room_restart()
+	for(var i = instance_number(Object_Enemy); i > 0; i--) {
+		var E = instance_find(Object_Enemy, i);
+		instance_destroy(E);
+	}
+	//room_goto_previous();
 }
