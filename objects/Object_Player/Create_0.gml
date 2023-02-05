@@ -64,7 +64,6 @@ step = function() {
 		
 		yPhysical += influence  
 		yPhysical = min(yPhysical, RoomWidth)
-		show_debug_message("y:{0}, i:{1}", yPhysical,  influence );
 		
 		backgroundSpeed = (1-(influence*verticalInput/4.6))*20;
 		

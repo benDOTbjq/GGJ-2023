@@ -10,41 +10,45 @@ tokenDropIncrement = 0;
 acBezier = animcurve_get_channel(bezier, "0-1");
 
 drawActive = false
+
+// good
 cars = {
 	sprite: token_cars,
-	happyness: 0.6
+	happyness: 0.1
 }
 daughter = {
 	sprite: token_daughter,
-	happyness: 0.6
+	happyness: 0.2
 }
 dogs = {
 	sprite: token_dogs,
-	happyness: 0.6
+	happyness: 0.1
 }
 politics = {
 	sprite: token_politics,
-	happyness: 0.6
+	happyness: 0.2
 }
 swimming = {
 	sprite: token_swimming,
-	happyness: 0.6
+	happyness: 0.1
 }
+
+// bad
 cats = {
 	sprite: token_cats,
-	happyness: -0.6
+	happyness: -0.1
 }
 crowdedplaces = {
 	sprite: token_crowdedplaces,
-	happyness: -0.6
+	happyness: -0.1
 }
 mice = {
 	sprite: token_mice,
-	happyness: -0.6
+	happyness: -0.1
 }
 mother = {
 	sprite: token_mother,
-	happyness: -0.6
+	happyness: -0.1
 }
 son = {
 	sprite: token_son,
@@ -52,7 +56,7 @@ son = {
 }
 wife = {
 	sprite: token_wife,
-	happyness: -0.6
+	happyness: -0.2
 }
 
 choiceLeft = cats;
@@ -67,9 +71,19 @@ postSplit = function(path) {
 	tokenDropPercent = 0.95;
 	tokenDropIncrement = -0.05;
 	if path == PATH_CHOICE.LEFT {
-		Game.happyness *= choiceLeft.happyness;
+		//if(choiceLeft.happyness<0 && Game.happyness<=0)
+		//	Game.happyness = 0;
+		//else if (choiceLeft.happyness>0 && Game.happyness>=1)
+		//	Game.happyness = 1;
+		//else
+		Game.happyness += choiceLeft.happyness;
 	}else {
-		Game.happyness *= choiceRight.happyness;
+		//if(ChoiceRight.happyness<0 && Game.happyness<=0)
+		//	Game.happyness = 0;
+		//else if (ChoiceRight.happyness>0 && Game.happyness>=1)
+		//	Game.happyness = 1;
+		//else
+		Game.happyness += choiceRight.happyness;
 	}
 	alarm_set(0, 60*5);
 	

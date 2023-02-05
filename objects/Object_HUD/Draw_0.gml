@@ -15,6 +15,54 @@ if(mousewheelDirection != 0 ) {
 draw_rectangle_color(130, 160, 180, 360, c_black, c_black, c_black, c_black, false);
 draw_rectangle_color(130, 160, 180, 360-((min(0, -Object_Player.backgroundSpeed)/20)*300), c_red, c_red, c_red, c_red, false);
 
-//var frame = 0;
-//var sprite = 
-draw_sprite(RedBar, 5, -50, 70)
+var frame = 0;
+var sprite = RedBar
+show_debug_message(Game.happyness)
+switch(round(Game.happyness*10)) {
+	case 0:
+		frame = 0;
+		sprite = RedBar;
+		break;
+	case 1:
+		frame = 1;
+		sprite = RedBar;
+		break;
+	case 2:
+		frame = 2;
+		sprite = RedBar;
+		break;
+	case 3:
+		frame = 3;
+		sprite = RedBar;
+		break;
+	case 4:
+		frame = 4;
+		sprite = RedBar;
+		break;
+		
+	case 5:
+		frame = 5;
+		sprite = GreenBar;
+		break;
+	case 6:
+		frame = 4;
+		sprite = GreenBar;
+		break;
+	case 7:
+		frame = 3;
+		sprite = GreenBar;
+		break;
+	case 8:
+		frame = 2;
+		sprite = GreenBar;
+		break;
+	case 9:
+		frame = 1;
+		sprite = GreenBar;
+		break;
+	default:
+		frame = 0;
+		sprite = GreenBar;
+		break;
+}
+draw_sprite(sprite, frame, -50, 70)
