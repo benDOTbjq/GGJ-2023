@@ -32,6 +32,7 @@
     {"name":"Object_TokenManager","order":1,"path":"objects/Object_TokenManager/Object_TokenManager.yy",},
     {"name":"token_son","order":4,"path":"sprites/token_son/token_son.yy",},
     {"name":"Object_DecisionToken","order":2,"path":"objects/Object_DecisionToken/Object_DecisionToken.yy",},
+    {"name":"BG2","order":15,"path":"sprites/BG2/BG2.yy",},
     {"name":"exhaust_blast_03","order":3,"path":"sounds/exhaust_blast_03/exhaust_blast_03.yy",},
     {"name":"Sprite21","order":2,"path":"sprites/Sprite21/Sprite21.yy",},
     {"name":"Sprite_MaporWalls","order":3,"path":"sprites/Sprite_MaporWalls/Sprite_MaporWalls.yy",},
