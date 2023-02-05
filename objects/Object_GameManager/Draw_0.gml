@@ -19,3 +19,5 @@ layer_x(borderLeftLayer, borderLeft-16);
 layer_y(borderRightLayer, layer_get_y(borderRightLayer) + (Object_Player.backgroundSpeed/2) );
 layer_y(borderMiddleLayer, layer_get_y(borderMiddleLayer) + (Object_Player.backgroundSpeed) );
 layer_y(borderLeftLayer, layer_get_y(borderLeftLayer) + (Object_Player.backgroundSpeed/2) );
+
+show_debug_message("Target Happiness: {0}", targetHappiness);
