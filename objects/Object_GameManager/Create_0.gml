@@ -29,8 +29,9 @@ particalEmitter = part_emitter_create(particalSystem);
 part_system_layer(particalSystem, layerBackgroundId);
 particalExaust = part_type_create()
 part_type_alpha2(particalExaust, 1, 0);
-part_type_color_mix(particalExaust, c_orange, c_yellow);
-part_type_shape(particalExaust, pt_shape_square);
+//part_type_color_mix(particalExaust, c_orange, c_yellow);
+part_type_sprite(particalExaust, ExhaustSprite, true, true, true);
+//part_type_shape(particalExaust, pt_shape_square);
 part_type_speed(particalExaust, 2, 20, 1, 5);
 part_type_direction(particalExaust, 0, 360, 0, 5);
 part_type_size(particalExaust, 0.1, 1, -1, 0.5);

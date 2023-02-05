@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite_Player",
-    "path": "sprites/Sprite_Player/Sprite_Player.yy",
+    "name": "EnemySprite",
+    "path": "sprites/EnemySprite/EnemySprite.yy",
   },
   "spriteMaskId": null,
   "visible": true,
