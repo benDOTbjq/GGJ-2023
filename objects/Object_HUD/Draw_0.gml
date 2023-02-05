@@ -14,3 +14,7 @@ if(mousewheelDirection != 0 ) {
 
 draw_rectangle_color(130, 160, 180, 360, c_black, c_black, c_black, c_black, false);
 draw_rectangle_color(130, 160, 180, 360-((min(0, -Object_Player.backgroundSpeed)/20)*300), c_red, c_red, c_red, c_red, false);
+
+//var frame = 0;
+//var sprite = 
+draw_sprite(RedBar, 5, -50, 70)

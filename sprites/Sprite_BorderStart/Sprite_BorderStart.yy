@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Sprite_BorderStart",
-  "bbox_bottom": 787,
+  "bbox_bottom": 797,
   "bbox_left": 0,
   "bbox_right": 31,
   "bbox_top": 0,

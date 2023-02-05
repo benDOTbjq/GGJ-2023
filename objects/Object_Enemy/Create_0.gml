@@ -21,3 +21,7 @@ step = function() {
 	x = clamp(x, Game.borderLeft, Game.borderRight);
 }
 
+kill = function() {
+	fadeIncrement = -0.1;
+	image_blend = c_grey;
+}
